@@ -1,0 +1,25 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #e5e5e5;
+    --text-color: #9C9AB6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--light-grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+}
